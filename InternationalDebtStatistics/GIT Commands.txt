@@ -1,0 +1,108 @@
+GITHUB
+-------
+1. Created an account in GITHUB
+2. Installed GIT Bash (GIT Client)
+3. Create a Folder in your machine (MyProjects)
+4. Double click on the folder to open
+5. right click and select 'open GIT bash here'
+6. Configure GIT
+   git config --global user.name "Roopa"
+   git config --global user.email "roopa.konaparthi@gmail.com"
+7. git config --list
+8. git clone https://github.com/roopa0609/DataAnalytics_Projects.git
+9. cd DataAnalytics_Projects/
+10. git status
+11. open SSMS - create a new .sql file and save it in 
+    Myprojects/DataAnalytics_projects folder
+12. git add LMSQueries.sql
+13. git commit -m "Adding LMS Queries files"
+14. git push
+==================================================================
+
+admin@DESKTOP-G9KS147 MINGW64 /d/MyProjects
+$ git config --global user.email "roopa.konaparthi@gmail.com"
+===================================================================
+admin@DESKTOP-G9KS147 MINGW64 /d/MyProjects
+$ git config --global user.name "Roopa"
+
+admin@DESKTOP-G9KS147 MINGW64 /d/MyProjects
+$ git config --global user.email "roopa.konaparthi@gmail.com"
+
+admin@DESKTOP-G9KS147 MINGW64 /d/MyProjects
+$ ^C
+
+admin@DESKTOP-G9KS147 MINGW64 /d/MyProjects
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Roopa
+user.email=roopa.konaparthi@gmail.com
+
+admin@DESKTOP-G9KS147 MINGW64 /d/MyProjects
+$ git clone https://github.com/roopa0609/DataAnalytics_Projects.git
+Cloning into 'DataAnalytics_Projects'...
+warning: You appear to have cloned an empty repository.
+
+admin@DESKTOP-G9KS147 MINGW64 /d/MyProjects
+$ cd DataAnalytics_Projects/
+
+admin@DESKTOP-G9KS147 MINGW64 /d/MyProjects/DataAnalytics_Projects (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        LMS Queries.sql
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+admin@DESKTOP-G9KS147 MINGW64 /d/MyProjects/DataAnalytics_Projects (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        LMSQueries.sql
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+admin@DESKTOP-G9KS147 MINGW64 /d/MyProjects/DataAnalytics_Projects (main)
+$ git add ^C
+
+admin@DESKTOP-G9KS147 MINGW64 /d/MyProjects/DataAnalytics_Projects (main)
+$ git add LMSQueries.sql
+
+admin@DESKTOP-G9KS147 MINGW64 /d/MyProjects/DataAnalytics_Projects (main)
+$ git commit -m "Adding LMS Queries files"
+[main (root-commit) fc1b8bf] Adding LMS Queries files
+ 1 file changed, 174 insertions(+)
+ create mode 100644 LMSQueries.sql
+
+admin@DESKTOP-G9KS147 MINGW64 /d/MyProjects/DataAnalytics_Projects (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 2.03 KiB | 692.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/roopa0609/DataAnalytics_Projects.git
+ * [new branch]      main -> main
+
+admin@DESKTOP-G9KS147 MINGW64 /d/MyProjects/DataAnalytics_Projects (main)
+$

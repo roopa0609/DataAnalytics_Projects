@@ -1,0 +1,28 @@
+Project Idea:
+-----------
+
+Topic: International Debt Statistics
+
+Learning:
+
+-- From where you have to get the data
+
+   Kaggle : 
+
+1. Define the Problem/Research Question (take the help of AI tools
+    Chatgpt/skysql)
+
+2. Collect Data:
+Gather relevant data from various sources, ensuring it is appropriate for your research question. 
+
+3. Clean and Prepare Data:
+This involves handling missing values, removing duplicates, and transforming data into a usable format. 
+
+4. Analyze the Data:
+Employ statistical methods and other analytical techniques to explore patterns, relationships, and trends within the data. 
+
+5. Interpret the Results:
+Make sense of the findings, drawing conclusions based on the analysis. 
+
+6. Communicate the Findings:
+Present the results in a clear, concise, and visually appealing manner, using charts, graphs, or reports, to facilitate understanding and action. 
